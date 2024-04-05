@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOTT-나의 계절에게</title>
+    <link rel = "stylesheet" href = "OOTT6detail.css">
+    <link rel = "stylesheet" href = "OOTTdetail2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    </style>
+</head>
+
+<body>
+
+<!--상단-->
+
+<div class="nav" id="nav">
+      <div OnClick="location.href ='../2_main/OOTT_main.html'" style="cursor:pointer;" class="nav_logo">
+      OOTT
+      </div>
+   </div>
+
+<div id="container">
+    <header id = "header"> 
+        <nav class ="menu">
+            <ul>
+              <li><a href = "../3_page1/OOTT_netflix.html"><b>넷플릭스</b></a></li>
+                <li><a href = "../3_page1/OOTT_watcha.html"><b>왓챠</b></a></li>
+                <li><a href = "../3_page1/OOTT_cupangplay.html"><b>쿠팡플레이</b></a></li>
+            </ul>
+        </nav>
+    </header> 
+
+   <div class="banner">
+      <div class="banner_contents">
+      </div>
+      <div class="banner--fadeBottom"></div>
+   </div>
+
+<!--page1-->
+
+  <div class="list">
+      <div class ="explain">
+        <img id="img1" class="_LAZY_LOADING" src="https://an2-img.amz.wtchn.net/image/v2/oQjYPbAG-6VryvWmOF-kjQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1qZ3dlRFF3TUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5UUTJOamN4TkRBM05qY3lOVFUyTmpNaWZRLi10S0s2X28xSHVxZ1VxRjRXSnNhMGtka3lIRXdReDdDdmk4bTZVdzlmbGc" width="400px" height="550px">
+
+          <h3 class ="intext"> <strong>나의 계절에게:봄, 박재찬 편</strong><br><br>
+            2022 · WATCHA · 액션 <br><br>
+            한국 <br><br>
+            여기 인생의 봄날을 맞은 '청춘', 재찬이 있다. <br>쏟아지는 관심, 계속되는 스케줄로 막상 봄을 즐기지 못하고 있던 중,<br> 미지의 존재 ‘겨울’이 다정한 편지를 보내온다.<br> 그 편지에 써 있는 여러 방법들을 통해, 재찬은 진정으로 봄을 즐기는 방법을 배운다. <br><br><br><br><br>
+          </h3>
+      </div>
+  </div>
+  
+  <!--page2-->
+
+  <div class="list">
+      <div class="three">
+          <h1><br><br> 출연/제작 </h1>
+          <div class = "profile">
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=b&size=216&expire=1&refresh=true&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F85%2F202204111848479721.jpg" height="200" width="150" alt="박재찬" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>박재찬<br> 출연 </p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=b&size=216&expire=1&refresh=true&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F202105%2F20210503141637118.jpg" height="200" width="150" alt="김노진" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>김노진<br> 출연</p>
+              </div>
+
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMTVfMTc4%2FMDAxNjM5NTY0NDE5NzU0.PNeavDy0OctrNWAfIQiI6fgMv10dg6s8mE9QEcqAumMg.emuTTUMy_xelathdZlttqT2MuisOTDuywAH7L4NL-BEg.JPEG.hjkin0501%2FIMG_1621.jpg&type=sc960_832" height="200" width="150" alt="팀awaw" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>팀awaw<br> 감독</p>
+              </div>
+
+  
+      </div>
+    </div>
+  </div>
+
+<!--page3-->
+
+  <div class="list">
+      <div class = "oott">
+        <p class="text"> 감상 가능한 곳 </p>
+        
+           <a href="https://www.watcha.com" class="site"><img src="watcha.jpg" height="150" width="200"></a>
+      </div>
+  </div>
+<div>
+
+  <script type="text/javascript">
+      const nav = document.getElementById('nav');
+
+      window.addEventListener('scroll', ()=>{
+         if(window.scrollY>=100) {
+            nav.classList.add('nav_black')
+         } else {
+            nav.classList.remove('nav_black');
+         }
+      })
+   </script>
+
+</body>
+</html>

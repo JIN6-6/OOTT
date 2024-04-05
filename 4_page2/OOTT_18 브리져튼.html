@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOTT-브리저튼</title>
+    <link rel = "stylesheet" href = "OOTT18detail.css">
+    <link rel = "stylesheet" href = "OOTTdetail2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    </style>
+</head>
+
+<body>
+
+<!--상단-->
+
+<div class="nav" id="nav">
+      <div OnClick="location.href ='../2_main/OOTT_main.html'" style="cursor:pointer;" class="nav_logo">
+      OOTT
+      </div>
+   </div>
+
+<div id="container">
+    <header id = "header"> 
+        <nav class ="menu">
+            <ul>
+                <li><a href = "../3_page1/OOTT_netflix.html"><b>넷플릭스</b></a></li>
+                <li><a href = "../3_page1/OOTT_watcha.html"><b>왓챠</b></a></li>
+                <li><a href = "../3_page1/OOTT_cupangplay.html"><b>쿠팡플레이</b></a></li>
+            </ul>
+        </nav>
+    </header> 
+
+   <div class="banner">
+      <div class="banner_contents">
+      </div>
+      <div class="banner--fadeBottom"></div>
+   </div>
+
+<!--page1-->
+
+  <div class="list">
+      <div class ="explain">
+        <img id="img1" class="_LAZY_LOADING" src="https://search.pstatic.net/common?type=o&size=174x242&quality=75&direct=true&src=https%3A%2F%2Fcsearch-phinf.pstatic.net%2F20220401_12%2F1648801854416TFN68_PNG%2F2cf468e866a7099cbd3b1405311941a7.png" width="400px" height="550px">
+
+          <h3 class ="intext"> <strong>브리저튼</strong><br><br>
+            2022 · Netflix · 드라마/로맨스/TV드라마<br><br>
+            미국 · 청불<br><br>
+            세상의 존경과 흠모를 받는 브리저튼 가문. 하지만 돈과 명예가 전부일까. <br> 끈끈하게 묶인 8남매가 진정한 사랑을 찾으려 한다.<br> 베스트셀러 소설 시리즈에 기반한 드라마.
+          </h3>
+      </div>
+  </div>
+  
+  <!--page2-->
+
+  <div class="list">
+      <div class="three">
+          <h1><br><br> 출연/제작 </h1>
+          <div class = "profile">
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=f&size=206x232&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F33%2F202012241405307291.jpg" height="200" width="150" alt="박은빈" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>피비 디네버<br> 출연 </p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=f&size=206x232&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F40%2F201803231610426821.jpg" height="200" width="150" alt="강태오" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>조나단 배일리<br> 출연</p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=f&size=206x232&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F37%2F202012241413274941.jpg" height="200" width="150" alt="강기영" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>레지 장 페이지<br> 출연</p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MjhfMjQy%2FMDAxNjU4OTk3NjQ3NzMw.WbRJhZkIEN3_bFbjFAKXqvs_utNTdL4ki8ziyAfFuTgg.7Wg-Bb1GnZrzOC883ssSyMCxfZ38C_6xJsZIm1ySeCog.JPEG.rissnam%2Fcvb.JPG&type=a340" height="200" width="150" alt="전배수" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>니콜라 커그랜<br> 출연</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!--page3-->
+
+  <div class="list">
+      <div class = "oott">
+        <p class="text"> 감상 가능한 곳 </p>
+        <a href="https://www.netflix.com/kr/" class="site"><img src="netflix.png" height="150" width="200"></a>
+      </div>
+  </div>
+<div>
+
+  <script type="text/javascript">
+      const nav = document.getElementById('nav');
+
+      window.addEventListener('scroll', ()=>{
+         if(window.scrollY>=100) {
+            nav.classList.add('nav_black')
+         } else {
+            nav.classList.remove('nav_black');
+         }
+      })
+   </script>
+
+</body>
+</html>

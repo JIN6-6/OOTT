@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOTT-키싱부스2</title>
+    <link rel = "stylesheet" href = "OOTT20detail.css">
+    <link rel = "stylesheet" href = "OOTTdetail2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    </style>
+</head>
+
+<body>
+
+<!--상단-->
+
+<div class="nav" id="nav">
+      <div OnClick="location.href ='../2_main/OOTT_main.html'" style="cursor:pointer;" class="nav_logo">
+      OOTT
+      </div>
+   </div>
+
+<div id="container">
+    <header id = "header"> 
+        <nav class ="menu">
+            <ul>
+                <li><a href = "../3_page1/OOTT_netflix.html"><b>넷플릭스</b></a></li>
+                <li><a href = "../3_page1/OOTT_watcha.html"><b>왓챠</b></a></li>
+                <li><a href = "../3_page1/OOTT_cupangplay.html"><b>쿠팡플레이</b></a></li>
+            </ul>
+        </nav>
+    </header> 
+
+   <div class="banner">
+      <div class="banner_contents">
+      </div>
+      <div class="banner--fadeBottom"></div>
+   </div>
+
+<!--page1-->
+
+  <div class="list">
+      <div class ="explain">
+        <img id="img1" class="_LAZY_LOADING" src="https://movie-phinf.pstatic.net/20200721_144/1595296434753BepRc_JPEG/movie_image.jpg?type=m203_290_2" width="400px" height="550px">
+
+          <h3 class ="intext"> <strong>The Kissing Booth 2</strong><br><br>
+            2021 · 미국 · 로맨틱 코미디 <br><br>
+            미국 · 15세<br><br>
+            고등학교 졸업과 함께 남친, 절친, 가족, <br>자신의 미래를 둘러싼 고민을 하기 시작한<br> 엘의 이야기를 다룬 로맨스 성장영화
+          </h3>
+      </div>
+  </div>
+  
+  <!--page2-->
+
+  <div class="list">
+      <div class="three">
+          <h1><br><br> 출연/제작 </h1>
+          <div class = "profile">
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=f&size=174x196&quality=75&direct=true&src=https%3A%2F%2Fssl.pstatic.net%2Fimgmovie%2Fmdi%2Fpi%2F000001819%2FPM181980_154545_000.png" height="200" width="150" alt="조이킹" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>조이킹<br> 출연</p>
+              </div>
+
+              <div class="lists">
+                 <p class = "list_text"><img src="https://search.pstatic.net/common?type=f&size=174x196&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F168%2F202003261840297941.jpg" height="200" width="150" alt="제이콥 엘로디" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>제이콥 엘로디<br> 출연 </p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=f&size=174x196&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F155%2F201105191215382531.bmp" height="200" width="150" alt="조엘 코트니" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>조엘 코트니<br> 출연</p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=f&size=174x196&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F195%2F201304031618236731.jpg" height="200" width="150" alt="몰리 링월드" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>몰리 링월드<br> 출연</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!--page3-->
+
+  <div class="list">
+      <div class = "oott">
+        <p class="text"> 감상 가능한 곳 </p>
+        <a href="https://www.netflix.com/kr/" class="site"><img src="netflix.png" height="150" width="200"></a>
+      </div>
+  </div>
+<div>
+
+  <script type="text/javascript">
+      const nav = document.getElementById('nav');
+
+      window.addEventListener('scroll', ()=>{
+         if(window.scrollY>=100) {
+            nav.classList.add('nav_black')
+         } else {
+            nav.classList.remove('nav_black');
+         }
+      })
+   </script>
+
+</body>
+</html>

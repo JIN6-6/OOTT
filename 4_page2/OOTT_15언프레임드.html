@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOTT-언프레임드</title>
+    <link rel = "stylesheet" href = "OOTT15detail.css">
+    <link rel = "stylesheet" href = "OOTTdetail2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    </style>
+</head>
+
+<body>
+
+  <!--상단-->
+
+<div class="nav" id="nav">
+      <div OnClick="location.href ='../2_main/OOTT_main.html'" style="cursor:pointer;" class="nav_logo">
+      OOTT
+      </div>
+   </div>
+
+<div id="container">
+    <header id = "header"> 
+        <nav class ="menu">
+            <ul>
+                <li><a href = "../3_page1/OOTT_netflix.html"><b>넷플릭스</b></a></li>
+                <li><a href = "../3_page1/OOTT_watcha.html"><b>왓챠</b></a></li>
+                <li><a href = "../3_page1/OOTT_cupangplay.html"><b>쿠팡플레이</b></a></li>
+            </ul>
+        </nav>
+    </header> 
+
+   <div class="banner">
+      <div class="banner_contents">
+      </div>
+      <div class="banner--fadeBottom"></div>
+   </div>
+
+<!--page1-->
+
+  <div class="list">
+      <div class ="explain">
+        <img id="img1" class="_LAZY_LOADING" src="https://an2-img.amz.wtchn.net/image/v2/eoI9DVTZoN-UAwtLgRDPGw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1qZ3dlRFF3TUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16WTFPVFUzTXprd05qWXlOakV4T0RVaWZRLmJCQjhVU2dwWnpWNHp2bTVldVJlQ0Q5UFBUbmhLSkhpRlFVd1Q4azBjOVk" width="400px" height="550px">
+
+          <h3 class ="intext"> <strong>언프레임드</strong><br><br>
+            2021 · WATCHA · 드라마 <br><br>
+            한국 · 12세<br><br>
+           네 명의 아티스트(박정민, 손석구, 최희서, 이제훈)가<br> 프레임에서 벗어나 마음속 깊숙이<br> 품고 있던 이야기를 직접 쓰고 연출한 숏필름 프로젝트.
+          </h3>
+      </div>
+  </div>
+  
+  <!--page2-->
+
+  <div class="list">
+      <div class="three">
+          <h1><br><br> 출연/제작 </h1>
+          <div class = "profile">
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=n&size=174x196&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F202206%2F20220609110127821.jpg" height="200" width="150" alt="박은빈" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>정해인 <br> 출연|찬영 <블루 해피니스> </p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=n&size=174x196&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F202203%2F20220315164006586.jpg" height="200" width="150" alt="강태오" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>최희서<br> 출연|소영 <반디> </p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=n&size=174x196&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F202009%2F20200908123019170.jpg" height="200" width="150" alt="강기영" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>신현수<br> 출연|원석 <반디></p>
+              </div>
+
+              <div class="lists">
+                  <p class = "list_text"><img src="https://search.pstatic.net/common?type=n&size=174x196&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F55%2F202109141730212151.jpg" height="200" width="150" alt="전배수" onerror="this.parentNode.style.display='none'" vspace=30 hspace=20><br>오민애<br> 출연|엄마 <재방송></p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!--page3-->
+
+  <div class="list">
+      <div class = "oott">
+        <p class="text"> 감상 가능한 곳 </p>
+        <a href="https://watcha.com" class="site"><img src="watcha.jpg" height="150" width="250"></a>
+      </div>
+  </div>
+<div>
+
+  <script type="text/javascript">
+      const nav = document.getElementById('nav');
+
+      window.addEventListener('scroll', ()=>{
+         if(window.scrollY>=100) {
+            nav.classList.add('nav_black')
+         } else {
+            nav.classList.remove('nav_black');
+         }
+      })
+   </script>
+
+</body>
+</html>
